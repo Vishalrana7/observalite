@@ -1,4 +1,18 @@
-/vendor
-bin/
-*.env
+# build
+/bin/
+build/
+
+# binary
+*.exe
+collector.exe
+
+# IDE
+.vscode/
+.idea/
+
+# system
 .DS_Store
+
+# env
+.env
+*.local
